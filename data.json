@@ -1,0 +1,82 @@
+{
+  "restaurant": {
+    "name": "Snack & Tabouleh",
+    "tagline": "Orientalisches Essen · Frisch. Authentisch. Herzlich.",
+    "description": "Entdecken Sie die Aromen des Orients mitten in Fürstenfeldbruck. Bei Snack & Tabouleh verwöhnen wir Sie täglich mit frisch zubereiteten Spezialitäten aus dem Nahen Osten – von knusprigem Falafel über cremigem Hummus bis hin zu unserem hausgemachten Tabouleh.",
+    "address": {
+      "street": "Schöngeisinger Str. 22",
+      "city": "Fürstenfeldbruck",
+      "zip": "82256",
+      "country": "Deutschland",
+      "maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.8!2d11.2345!3d48.1789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7e5c5e5e5e5e%3A0x5e5e5e5e5e5e5e5e!2sSchöngeisinger+Str.+22%2C+82256+Fürstenfeldbruck!5e0!3m2!1sde!2sde!4v1234567890"
+    },
+    "contact": {
+      "phone": "+49 1522 8790171",
+      "phone_display": "+49 1522 879 0171"
+    },
+    "opening_hours": [
+      { "day": "Montag", "hours": "10:00 – 20:00" },
+      { "day": "Dienstag", "hours": "10:00 – 20:00" },
+      { "day": "Mittwoch", "hours": "10:00 – 20:00" },
+      { "day": "Donnerstag", "hours": "10:00 – 20:00" },
+      { "day": "Freitag", "hours": "10:00 – 20:00" },
+      { "day": "Samstag", "hours": "10:00 – 20:00" },
+      { "day": "Sonntag", "hours": "Geschlossen" }
+    ],
+    "rating": 4.9,
+    "review_count": "50+",
+    "price_range": "1 € – 10 €",
+    "categories": ["Halal", "Vegetarisch", "Vegan", "Mittelöstlich"],
+    "features": ["Takeaway", "Kostenlose Parkplätze", "Mittagstisch", "Abendessen"],
+    "menu": [
+      {
+        "category": "Mezze & Vorspeisen",
+        "items": [
+          { "name": "Hummus", "desc": "Cremige Kichererbsenpaste mit Olivenöl & Gewürzen", "price": "3.50" },
+          { "name": "Tabouleh", "desc": "Frischer Bulgursalat mit Tomaten, Minze & Petersilie", "price": "4.00" },
+          { "name": "Baba Ganoush", "desc": "Geröstetes Auberginenpüree, rauchig & aromatisch", "price": "3.50" },
+          { "name": "Falafel (4 Stk.)", "desc": "Knusprige Kichererbsenbällchen, hausgemacht", "price": "4.50" }
+        ]
+      },
+      {
+        "category": "Hauptspeisen",
+        "items": [
+          { "name": "Shawarma Wrap", "desc": "Zart mariniertes Fleisch, Gemüse & Sauce im Fladenbrot", "price": "7.50" },
+          { "name": "Falafel Wrap", "desc": "Knusprige Falafel, Salat, Hummus & Tahini", "price": "6.50" },
+          { "name": "Kebab Teller", "desc": "Gegrilltes Fleisch mit Reis, Salat & Brot", "price": "9.00" },
+          { "name": "Mezze Platte", "desc": "Auswahl der besten Vorspeisen für 2 Personen", "price": "14.00" }
+        ]
+      },
+      {
+        "category": "Snacks & Extras",
+        "items": [
+          { "name": "Fladenbrot mit Dip", "desc": "Frisches Pita mit Hummus oder Tzatziki", "price": "2.50" },
+          { "name": "Sambusak", "desc": "Gefüllte Teigtaschen, knusprig gebacken", "price": "3.00" }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Sarah M.",
+        "rating": 5,
+        "date": "Januar 2025",
+        "text": "Unglaublich frisches und authentisches arabisches Essen zu einem super Preis – verdient mehr als 5 Sterne! Das Essen war einfach fantastisch.",
+        "source": "Google"
+      },
+      {
+        "author": "Thomas K.",
+        "rating": 5,
+        "date": "Dezember 2024",
+        "text": "Hervorragendes Essen mit wunderbaren, freundlichen Besitzern. Das beste orientalische Restaurant in der Region. Absolut empfehlenswert!",
+        "source": "Google"
+      },
+      {
+        "author": "Julia B.",
+        "rating": 5,
+        "date": "November 2024",
+        "text": "Der Hummus ist der cremigste, den ich je gegessen habe. Alles wird frisch zubereitet und das Personal ist unglaublich herzlich. Mein Lieblingsrestaurant!",
+        "source": "Google"
+      }
+    ]
+  }
+}
