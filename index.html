@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Snack & Tabouleh – Orientalisches Essen in Fürstenfeldbruck. Frisch, authentisch und herzlich. Falafel, Hummus, Shawarma & mehr. Schöngeisinger Str. 22.">
+  <title>Snack & Tabouleh | Orientalisches Essen – Fürstenfeldbruck</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+<body>
+
+<!-- ===== MOBILE NAV ===== -->
+<div class="mobile-nav" id="mobileNav">
+  <span class="mobile-close" id="mobileClose">✕</span>
+  <a href="#about" onclick="closeMobile()">Über uns</a>
+  <a href="#menu" onclick="closeMobile()">Speisekarte</a>
+  <a href="#gallery" onclick="closeMobile()">Galerie</a>
+  <a href="#reviews" onclick="closeMobile()">Bewertungen</a>
+  <a href="#contact" onclick="closeMobile()">Kontakt</a>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <div class="nav-logo">
+      <div class="nav-logo-icon">🌿</div>
+      <span class="nav-logo-text">Snack & Tabouleh</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">Über uns</a></li>
+      <li><a href="#menu">Speisekarte</a></li>
+      <li><a href="#gallery">Galerie</a></li>
+      <li><a href="#reviews">Bewertungen</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+    <a href="tel:+4915228790171" class="nav-cta">📞 Anrufen</a>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>⭐ 4.9 Google Bewertung</span>
+        <span>·</span>
+        <span>Halal · Vegetarisch</span>
+      </div>
+      <h1>Der <em>Geschmack</em><br>des Orients</h1>
+      <p class="hero-sub">Frisch zubereitet, authentisch gewürzt – mitten in Fürstenfeldbruck.<br>Falafel, Hummus, Shawarma & das beste Tabouleh der Region.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn-primary">🍽 Zur Speisekarte</a>
+        <a href="#contact" class="btn-outline">📍 Uns finden</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-number">4.9</div>
+      <div class="stat-label">Google Rating</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">50+</div>
+      <div class="stat-label">Bewertungen</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">1€</div>
+      <div class="stat-label">ab Preis</div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Entdecken</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-stack reveal-left">
+        <div class="about-img-main">
+          <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=700&q=80" alt="Orientalisches Essen - frisch zubereitet">
+        </div>
+        <div class="about-img-accent floating">
+          <img src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=400&q=80" alt="Frische Zutaten">
+        </div>
+        <p class="img-caption">📸 Hier könnten Ihre Bilder sein</p>
+      </div>
+      <div class="about-content reveal-right">
+        <span class="about-tag">🌿 Unsere Geschichte</span>
+        <h2>Orientalische Küche mit Herz & Seele</h2>
+        <div class="deco-line"><span class="deco-star">✦</span></div>
+        <p class="about-text">
+          Im Snack & Tabouleh verwöhnen wir Sie täglich mit authentischen Aromen aus dem Nahen Osten. Alles wird frisch zubereitet – von unseren knusprigen Falafel bis zum cremigen Hummus, nach traditionellen Familienrezepten.
+        </p>
+        <p class="about-text">
+          Unser Ziel: Dass Sie sich bei jedem Besuch wie zu Hause fühlen. Herzlich, unkompliziert, und natürlich unglaublich lecker. Kein Wunder, dass wir mit <strong>4,9 Sternen</strong> bei Google zu den beliebtesten Lokalen in Fürstenfeldbruck gehören.
+        </p>
+        <div class="about-features">
+          <div class="feature-chip"><span class="icon">🥙</span> Halal Zertifiziert</div>
+          <div class="feature-chip"><span class="icon">🌱</span> Vegetarisch & Vegan</div>
+          <div class="feature-chip"><span class="icon">🚗</span> Kostenlose Parkplätze</div>
+          <div class="feature-chip"><span class="icon">🥡</span> Takeaway möglich</div>
+          <div class="feature-chip"><span class="icon">🌞</span> Mo–Sa 10–20 Uhr</div>
+          <div class="feature-chip"><span class="icon">💶</span> Günstige Preise</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENU ===== -->
+<section class="section menu-section" id="menu">
+  <div class="container">
+    <h2 class="section-title reveal">Unsere Speisekarte</h2>
+    <div class="deco-line reveal"><span class="deco-star">✦</span></div>
+    <p class="section-sub reveal">Alle Speisen werden täglich frisch zubereitet. Preise von 1 € – 10 €.</p>
+
+    <div class="menu-tabs reveal">
+      <button class="tab-btn active" data-tab="all">Alle Gerichte</button>
+      <button class="tab-btn" data-tab="mezze">Mezze & Vorspeisen</button>
+      <button class="tab-btn" data-tab="main">Hauptspeisen</button>
+      <button class="tab-btn" data-tab="snacks">Snacks & Extras</button>
+    </div>
+
+    <div class="menu-grid" id="menuGrid">
+      <!-- Mezze -->
+      <div class="menu-card active" data-cat="mezze">
+        <div class="card-name">🫘 Hummus</div>
+        <div class="card-desc">Cremige Kichererbsenpaste mit bestem Olivenöl & orientalischen Gewürzen</div>
+        <div class="card-price">3,50 €</div>
+      </div>
+      <div class="menu-card active" data-cat="mezze">
+        <div class="card-name">🌿 Tabouleh</div>
+        <div class="card-desc">Frischer Bulgursalat mit Tomaten, Minze & Petersilie – unser Namensgericht</div>
+        <div class="card-price">4,00 €</div>
+      </div>
+      <div class="menu-card active" data-cat="mezze">
+        <div class="card-name">🍆 Baba Ganoush</div>
+        <div class="card-desc">Geröstetes Auberginenpüree – rauchig, aromatisch, unwiderstehlich</div>
+        <div class="card-price">3,50 €</div>
+      </div>
+      <div class="menu-card active" data-cat="mezze">
+        <div class="card-name">🧆 Falafel (4 Stk.)</div>
+        <div class="card-desc">Knusprige Kichererbsenbällchen, hausgemacht nach Originalrezept</div>
+        <div class="card-price">4,50 €</div>
+      </div>
+      <!-- Main -->
+      <div class="menu-card active" data-cat="main">
+        <div class="card-name">🥙 Shawarma Wrap</div>
+        <div class="card-desc">Zart mariniertes Fleisch, frisches Gemüse & Tahini-Sauce im Fladenbrot</div>
+        <div class="card-price">7,50 €</div>
+      </div>
+      <div class="menu-card active" data-cat="main">
+        <div class="card-name">🌯 Falafel Wrap</div>
+        <div class="card-desc">Knusprige Falafel, frischer Salat, Hummus & Tahini – vegetarisch</div>
+        <div class="card-price">6,50 €</div>
+      </div>
+      <div class="menu-card active" data-cat="main">
+        <div class="card-name">🍢 Kebab Teller</div>
+        <div class="card-desc">Gegrilltes Fleisch mit Basmati-Reis, buntem Salat & frischem Pita</div>
+        <div class="card-price">9,00 €</div>
+      </div>
+      <div class="menu-card active" data-cat="main">
+        <div class="card-name">🫙 Mezze Platte</div>
+        <div class="card-desc">Die große Auswahl: Hummus, Falafel, Tabouleh, Baba Ganoush & Pita für 2</div>
+        <div class="card-price">14,00 €</div>
+      </div>
+      <!-- Snacks -->
+      <div class="menu-card active" data-cat="snacks">
+        <div class="card-name">🫓 Pita mit Dip</div>
+        <div class="card-desc">Frisch gebackenes Fladenbrot mit Hummus oder Tzatziki nach Wahl</div>
+        <div class="card-price">2,50 €</div>
+      </div>
+      <div class="menu-card active" data-cat="snacks">
+        <div class="card-name">🥟 Sambusak</div>
+        <div class="card-desc">Gefüllte orientalische Teigtaschen, knusprig gebacken</div>
+        <div class="card-price">3,00 €</div>
+      </div>
+    </div>
+
+    <p style="text-align:center; margin-top: 2.5rem; color: var(--light-text); font-style: italic; font-size: 0.9rem;">
+      * Speisekarte kann variieren. Für aktuelle Preise und Tagesangebote bitte anrufen.
+    </p>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <h2 class="section-title reveal">Einblicke</h2>
+    <div class="deco-line reveal"><span class="deco-star">✦</span></div>
+    <p class="section-sub reveal">Frische Zutaten, liebevolle Zubereitung – jeden Tag.</p>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=900&q=80" alt="Orientalische Speisen">
+        <div class="gallery-overlay"><span class="gallery-caption">📸 Hier könnten Ihre Bilder sein</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=500&q=80" alt="Frisches Falafel">
+        <div class="gallery-overlay"><span class="gallery-caption">📸 Hier könnten Ihre Bilder sein</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=500&q=80" alt="Mezze Teller">
+        <div class="gallery-overlay"><span class="gallery-caption">📸 Hier könnten Ihre Bilder sein</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=500&q=80" alt="Orientalisches Restaurant">
+        <div class="gallery-overlay"><span class="gallery-caption">📸 Hier könnten Ihre Bilder sein</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=500&q=80" alt="Shawarma Wrap">
+        <div class="gallery-overlay"><span class="gallery-caption">📸 Hier könnten Ihre Bilder sein</span></div>
+      </div>
+    </div>
+    <p style="text-align:center; margin-top: 1.5rem; color: rgba(245,237,216,0.4); font-style: italic; font-size: 0.85rem;">
+      Die gezeigten Bilder sind Beispielfotos. 📸 Hier könnten Ihre eigenen Bilder sein.
+    </p>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section class="section reviews-section" id="reviews">
+  <div class="container">
+    <h2 class="section-title reveal">Was unsere Gäste sagen</h2>
+    <div class="deco-line reveal"><span class="deco-star">✦</span></div>
+
+    <div class="reviews-intro reveal">
+      <div class="rating-big">
+        <div class="rating-number">4.9</div>
+        <div class="rating-stars">★★★★★</div>
+        <div class="rating-count">50+ Bewertungen auf Google</div>
+        <div style="margin-top:0.8rem;">
+          <a href="https://maps.google.com/maps?q=Snack+Tabouleh+Fürstenfeldbruck" target="_blank" style="display:inline-flex;align-items:center;gap:0.4rem;background:#4285F4;color:#fff;padding:0.5rem 1.2rem;border-radius:50px;font-size:0.85rem;font-weight:600;transition:opacity 0.2s;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Auf Google bewerten
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">„Unglaublich frisches und authentisches arabisches Essen zu einem super Preis – verdient mehr als 5 Sterne! Jeden Tag wieder."</div>
+        <div class="review-author">
+          <div class="review-avatar">S</div>
+          <div>
+            <div class="review-name">Sarah M.</div>
+            <div class="review-date">Januar 2025</div>
+            <div class="google-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+              Google Rezension
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card reveal">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">„Hervorragendes Essen mit wunderbaren, freundlichen Besitzern. Das beste orientalische Restaurant in der Region. Absolut empfehlenswert!"</div>
+        <div class="review-author">
+          <div class="review-avatar">T</div>
+          <div>
+            <div class="review-name">Thomas K.</div>
+            <div class="review-date">Dezember 2024</div>
+            <div class="google-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+              Google Rezension
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card reveal">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">„Der Hummus ist der cremigste, den ich je gegessen habe. Alles frisch zubereitet und das Personal ist unglaublich herzlich. Mein Lieblingsrestaurant!"</div>
+        <div class="review-author">
+          <div class="review-avatar">J</div>
+          <div>
+            <div class="review-name">Julia B.</div>
+            <div class="review-date">November 2024</div>
+            <div class="google-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+              Google Rezension
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Google Reviews Widget Embed Note -->
+    <div style="text-align:center; margin-top: 3rem; padding: 1.5rem; background: rgba(66,133,244,0.06); border: 1px solid rgba(66,133,244,0.2); border-radius: 12px; color: var(--mid);">
+      <p style="font-size:0.9rem;">
+        🔗 <strong>Google Reviews Widget:</strong> Um das offizielle Google-Bewertungs-Widget einzubetten, 
+        ist ein <a href="https://developers.google.com/maps/documentation/places/web-service/place-reviews" style="color:#4285F4;" target="_blank">Google Places API-Schlüssel</a> erforderlich. 
+        Kontaktieren Sie uns für die Integration.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INFO / HOURS ===== -->
+<section class="section info-section" id="contact">
+  <div class="container">
+    <h2 class="section-title reveal">Besuchen Sie uns</h2>
+    <div class="deco-line reveal"><span class="deco-star">✦</span></div>
+    <div class="info-grid" style="margin-top: 3rem;">
+
+      <div class="reveal-left">
+        <div class="hours-card">
+          <h3 class="hours-title">🕐 Öffnungszeiten</h3>
+          <ul class="hours-list" id="hoursList">
+            <li class="hours-item" data-day="1"><span class="hours-day">Montag</span><span class="hours-time">10:00 – 20:00</span></li>
+            <li class="hours-item" data-day="2"><span class="hours-day">Dienstag</span><span class="hours-time">10:00 – 20:00</span></li>
+            <li class="hours-item" data-day="3"><span class="hours-day">Mittwoch</span><span class="hours-time">10:00 – 20:00</span></li>
+            <li class="hours-item" data-day="4"><span class="hours-day">Donnerstag</span><span class="hours-time">10:00 – 20:00</span></li>
+            <li class="hours-item" data-day="5"><span class="hours-day">Freitag</span><span class="hours-time">10:00 – 20:00</span></li>
+            <li class="hours-item" data-day="6"><span class="hours-day">Samstag</span><span class="hours-time">10:00 – 20:00</span></li>
+            <li class="hours-item closed" data-day="0"><span class="hours-day">Sonntag</span><span class="hours-time">Geschlossen</span></li>
+          </ul>
+        </div>
+
+        <!-- Open status badge -->
+        <div id="openStatus" style="margin-top:1rem; text-align:center;"></div>
+      </div>
+
+      <div class="contact-info reveal-right">
+        <h3 style="margin-bottom: 1.5rem; font-size:1.5rem;">Kontakt & Anfahrt</h3>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-label">Adresse</div>
+            <div class="contact-value">
+              <a href="https://maps.google.com/?q=Schöngeisinger+Str.+22+82256+Fürstenfeldbruck" target="_blank">
+                Schöngeisinger Str. 22<br>82256 Fürstenfeldbruck
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <div class="contact-label">Telefon</div>
+            <div class="contact-value">
+              <a href="tel:+4915228790171">+49 1522 879 0171</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">🚗</div>
+          <div>
+            <div class="contact-label">Parken</div>
+            <div class="contact-value">Kostenlose Parkplätze direkt vor dem Restaurant</div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">🥡</div>
+          <div>
+            <div class="contact-label">Takeaway</div>
+            <div class="contact-value">Alle Gerichte zum Mitnehmen erhältlich</div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">🏷</div>
+          <div>
+            <div class="contact-label">Preise</div>
+            <div class="contact-value">Ab 1 € – günstig & frisch</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+          <span style="display:inline-flex;align-items:center;gap:0.4rem;background:rgba(107,124,69,0.12);border:1px solid rgba(107,124,69,0.3);color:#5a6e34;border-radius:6px;padding:0.3rem 0.7rem;font-size:0.8rem;font-weight:600;">✅ Halal</span>
+          <span style="display:inline-flex;align-items:center;gap:0.4rem;background:rgba(107,124,69,0.12);border:1px solid rgba(107,124,69,0.3);color:#5a6e34;border-radius:6px;padding:0.3rem 0.7rem;font-size:0.8rem;font-weight:600;">🌱 Vegetarisch</span>
+          <span style="display:inline-flex;align-items:center;gap:0.4rem;background:rgba(107,124,69,0.12);border:1px solid rgba(107,124,69,0.3);color:#5a6e34;border-radius:6px;padding:0.3rem 0.7rem;font-size:0.8rem;font-weight:600;">🌿 Vegan</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GOOGLE MAPS ===== -->
+<section class="section map-section">
+  <div class="container">
+    <h2 class="section-title reveal">So finden Sie uns</h2>
+    <div class="deco-line reveal"><span class="deco-star">✦</span></div>
+    <p class="section-sub reveal">Schöngeisinger Str. 22, 82256 Fürstenfeldbruck</p>
+    <div class="map-wrapper reveal">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.42!2d11.2373!3d48.1728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7a62a85a8cdf%3A0x0!2sSchöngeisinger+Str.+22%2C+82256+Fürstenfeldbruck!5e0!3m2!1sde!2sde!4v1715000000000"
+        width="100%"
+        height="420"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Snack & Tabouleh – Schöngeisinger Str. 22, 82256 Fürstenfeldbruck">
+      </iframe>
+    </div>
+    <div style="text-align:center; margin-top: 1.5rem;">
+      <a href="https://maps.google.com/?q=Schöngeisinger+Str.+22,+82256+Fürstenfeldbruck" target="_blank" class="btn-primary" style="display:inline-flex; margin: 0 auto;">
+        🗺 Route planen
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-text">Snack & Tabouleh</div>
+        <div class="logo-sub">Orientalisches Essen · Fürstenfeldbruck</div>
+        <p>Frische, authentische Küche aus dem Nahen Osten. Täglich von Montag bis Samstag für Sie geöffnet. Mit ❤️ zubereitet.</p>
+        <div style="margin-top: 1rem;">
+          <span class="footer-halal">✅ Halal Zertifiziert</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-title">Navigation</div>
+        <ul class="footer-list">
+          <li><a href="#home">Startseite</a></li>
+          <li><a href="#about">Über uns</a></li>
+          <li><a href="#menu">Speisekarte</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+          <li><a href="#reviews">Bewertungen</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-title">Kontakt</div>
+        <ul class="footer-list">
+          <li><a href="tel:+4915228790171">📞 +49 1522 879 0171</a></li>
+          <li><a href="https://maps.google.com/?q=Schöngeisinger+Str.+22+82256+Fürstenfeldbruck" target="_blank">📍 Schöngeisinger Str. 22</a></li>
+          <li style="color: rgba(255,255,255,0.5);">82256 Fürstenfeldbruck</li>
+          <li style="margin-top:1rem; color: rgba(255,255,255,0.5);">Mo–Sa: 10:00–20:00</li>
+          <li style="color: rgba(255,255,255,0.35);">So: Geschlossen</li>
+        </ul>
+        <div style="margin-top:1.5rem;">
+          <a href="https://maps.google.com/maps?q=Snack+Tabouleh+Fürstenfeldbruck" target="_blank"
+             style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(66,133,244,0.15);border:1px solid rgba(66,133,244,0.3);color:#7aaff5;border-radius:8px;padding:0.5rem 1rem;font-size:0.85rem;font-weight:600;transition:background 0.2s;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#4285F4"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Google Maps öffnen
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2025 Snack & Tabouleh · Alle Rechte vorbehalten</span>
+      <span style="color: rgba(255,255,255,0.35);">Schöngeisinger Str. 22 · 82256 Fürstenfeldbruck</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== SCROLL TO TOP ===== -->
+<button id="scrollTop" aria-label="Nach oben scrollen">↑</button>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script>
+// ── Load data from JSON ──────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch('data.json');
+    const data = await res.json();
+    return data.restaurant;
+  } catch(e) {
+    return null; // falls nicht verfügbar, Fallback auf HTML-Daten
+  }
+}
+
+// ── Navbar scroll effect ─────────────────────────────
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 80) navbar.classList.add('scrolled');
+  else navbar.classList.remove('scrolled');
+});
+
+// ── Mobile nav ───────────────────────────────────────
+document.getElementById('hamburger').addEventListener('click', () => {
+  document.getElementById('mobileNav').classList.add('open');
+  document.body.style.overflow = 'hidden';
+});
+document.getElementById('mobileClose').addEventListener('click', closeMobile);
+function closeMobile() {
+  document.getElementById('mobileNav').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ── Scroll reveal ────────────────────────────────────
+const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      // staggered delay for siblings
+      const siblings = entry.target.parentElement.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+      let idx = Array.from(siblings).indexOf(entry.target);
+      setTimeout(() => {
+        entry.target.classList.add('visible');
+      }, Math.min(idx * 80, 400));
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+revealEls.forEach(el => observer.observe(el));
+
+// ── Scroll to top ────────────────────────────────────
+const scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 500) scrollBtn.classList.add('visible');
+  else scrollBtn.classList.remove('visible');
+});
+scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+// ── Menu tabs ─────────────────────────────────────────
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const tab = btn.dataset.tab;
+    document.querySelectorAll('.menu-card').forEach(card => {
+      if (tab === 'all' || card.dataset.cat === tab) {
+        card.classList.add('active');
+        card.style.animation = 'fadeInUp 0.4s ease both';
+      } else {
+        card.classList.remove('active');
+      }
+    });
+  });
+});
+
+// ── Today's hours highlight ───────────────────────────
+function highlightToday() {
+  const day = new Date().getDay(); // 0=Sunday
+  const items = document.querySelectorAll('.hours-item');
+  items.forEach(item => {
+    if (parseInt(item.dataset.day) === day) {
+      item.classList.add('today');
+    }
+  });
+}
+highlightToday();
+
+// ── Open/Closed status ────────────────────────────────
+function showOpenStatus() {
+  const now = new Date();
+  const day = now.getDay();
+  const hour = now.getHours() + now.getMinutes() / 60;
+  const isWeekday = day >= 1 && day <= 6;
+  const isOpen = isWeekday && hour >= 10 && hour < 20;
+
+  const statusEl = document.getElementById('openStatus');
+  if (isOpen) {
+    statusEl.innerHTML = `
+      <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(107,188,69,0.15);border:2px solid rgba(107,188,69,0.4);color:#5a9e34;border-radius:50px;padding:0.5rem 1.2rem;font-weight:700;font-size:0.95rem;">
+        <span style="width:8px;height:8px;background:#5a9e34;border-radius:50%;animation:pulse 1.5s ease-in-out infinite;"></span>
+        Jetzt geöffnet – bis 20:00 Uhr
+      </span>`;
+  } else {
+    statusEl.innerHTML = `
+      <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(200,60,60,0.12);border:2px solid rgba(200,60,60,0.3);color:#c43c3c;border-radius:50px;padding:0.5rem 1.2rem;font-weight:700;font-size:0.95rem;">
+        <span style="width:8px;height:8px;background:#c43c3c;border-radius:50%;"></span>
+        Aktuell geschlossen
+      </span>`;
+  }
+}
+showOpenStatus();
+
+// Pulse animation for open indicator
+const style = document.createElement('style');
+style.textContent = `@keyframes pulse { 0%,100% { opacity:1; transform:scale(1); } 50% { opacity:0.5; transform:scale(1.4); } }`;
+document.head.appendChild(style);
+
+// ── Smooth anchor scroll with offset ─────────────────
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', (e) => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      const offset = 80;
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
